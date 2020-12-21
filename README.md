@@ -1,1 +1,1 @@
-<a href="https://omergulcicek.com/bootcamp/" target="_blank" rel="noopener noreferrer">Bootcamp İşlenen Konular</a>
+[Bootcamp'te işlenen konular için tıklayın.](https://omergulcicek.com/bootcamp/)
