@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #63738A;
+      font-family: "Inter", sans-serif;
+    }
+
+    .register {
+      background-color: #F2F3F7;
+      box-shadow: 0 1px 1px black;
+      margin: auto;
+      padding-top: 24px;
+      width: 80%;
+    }
+
+    .register__title {
+      color: #5c5c5c;
+      font-size: 24px;
+      font-weight: 200;
+      margin-bottom: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .register__desc {
+      color: #5c5c5c;
+      font-size: 12px;
+      margin-top: 16px;
+      text-align: center;
+    }
+
+    .register__form {
+      padding: 40px;
+    }
+
+    .register__form input[type="text"],
+    .register__form input[type="email"],
+    .register__form input[type="password"] {
+      border: 1px solid rgba(0,0,0,.3);
+      border-radius: 4px;
+      display: inline-block;
+      height: 35px;
+      margin-bottom: 20px;
+      outline: none;
+      padding-left: 8px;
+      width: 45%;
+    }
+
+    .register__form input::placeholder {
+      color: rgb(156, 156, 156);
+    }
+
+    .register__form input.soyad {
+      margin-left: 27px;
+    }
+
+  .register__form input.w100 {
+    width: 100%;
+  }
+
+  .register__form button {
+    background-color: #51A950;
+    border: none;
+    color: white;
+    margin-top: 16px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    padding-top: 8px;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  .already {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .already a {
+    color: white;
+  }
+
+
+  </style>
+</head>
+<body>
+  <div class="register">
+    <h6 class="register__title">Register</h6>
+
+    <p class="register__desc">Yeni hesap oluşturmak için bi kaç dakikanızı ayırın.</p>
+
+    <form class="register__form">
+      <input type="text" placeholder="Ad">
+      
+      <input type="text" placeholder="Soyad" class="soyad">
+
+      <input type="email" placeholder="Email" class="w100">
+
+      <input type="password" placeholder="Parola" class="w100">
+
+      <input type="password" placeholder="Parola Tekrarı" class="w100">
+
+      <label>
+        <input type="checkbox">
+        Sözleşmeyi kabul ediyorum
+      </label>
+      
+      <div>
+        <button type="submit">Kayıt Ol</button>
+      </div>
+    </form>
+  </div>
+
+  <p class="already">
+    Hesabınız mı var? <a href="login-form.html">Giriş Yap</a>
+  </p>
+  
+</body>
+</html>

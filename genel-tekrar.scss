@@ -1,0 +1,33 @@
+$bgColor: rgb(223, 148, 9);
+
+:root {
+  --border-radius: 4px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  background-color: $bgColor;
+  padding: 16px;
+}
+
+.card {
+  background-color: $bgColor;
+  border: 1px solid black;
+  border-radius: var(--border-radius);
+  width: 400px;
+  padding: 0;
+  font-size: sans-serif;
+  margin-bottom: 16px;
+
+  &__title {
+    font-size: 25px;
+
+    &--small {
+      font-size: 18px;
+    }
+  }
+}

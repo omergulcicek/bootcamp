@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #73C25A;
+    }
+
+    .login-form {
+      background-color: #fff;
+      box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.35);
+      padding: 30px;
+      margin: 160px auto 0;
+      width: 300px;
+    }
+
+    .login-form .input {
+      background-color: #F2F2F2;
+      border: none;
+      color: black;
+      display: block;
+      height: 48px;
+      margin-bottom: 16px;
+      outline: none;
+      padding-left: 16px;
+      width: 100%;
+    }
+
+    .login-form .input::placeholder {
+      color: #6b6b6b;
+    }
+
+    .login-form .button {
+      background-color: #50883A;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font-family: "Inter", sans-serif;
+      font-weight: 200;
+      padding: 16px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+
+    .login-form .desc {
+      color:#9d9d9d;
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .login-form .desc a {
+      color: #50883A;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="login-form">
+    <form>
+      <input type="text" placeholder="username" class="input">
+      <input type="password" placeholder="password" class="input">
+
+      <button type="submit" class="button">Login</button>
+
+      <p class="desc">
+        Not registered?
+
+        <a href="register-form.html">Create an account</a>
+      </p>
+    </form>
+  </div>
+
+</body>
+</html>

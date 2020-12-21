@@ -1,0 +1,32 @@
+:root {
+  --border-radius: 4px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  background-color: #df9409;
+  padding: 16px;
+}
+
+.card {
+  background-color: #df9409;
+  border: 1px solid black;
+  border-radius: var(--border-radius);
+  width: 400px;
+  padding: 0;
+  font-size: sans-serif;
+  margin-bottom: 16px;
+}
+
+.card__title {
+  font-size: 25px;
+}
+
+.card__title--small {
+  font-size: 18px;
+}
+/*# sourceMappingURL=genel-tekrar.css.map */

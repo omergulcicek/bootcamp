@@ -1,0 +1,28 @@
+
+$color: #0707d6;
+$hover-color: #d60707;
+$fontLarge: 18px;
+
+.card {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 16px;
+
+  &__title {
+    color: var(--color);
+    background-color: var(--bg-color);
+    background-color: $color;
+  }
+
+  &__content {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  a.button {
+    background-color: black;
+    padding: 16px;
+    border-radius: 0px 20px 50px
+  }
+}

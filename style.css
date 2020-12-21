@@ -1,0 +1,24 @@
+.card {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.card__title {
+  color: var(--color);
+  background-color: var(--bg-color);
+  background-color: #0707d6;
+}
+
+.card__content {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.card a.button {
+  background-color: black;
+  padding: 16px;
+  border-radius: 0px 20px 50px;
+}
+/*# sourceMappingURL=style.css.map */

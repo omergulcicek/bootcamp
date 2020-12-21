@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+
+    body {
+      position: relative;
+    }
+
+    .list {
+      float: right;
+      list-style: none;
+      margin: 16px;
+      padding: 0;
+      position: relative;
+      right: 0;
+      height: 100%;
+    }
+
+    .list li {
+      align-items: center;
+      border: 5px solid rgba(0, 0, 0, 0.1);
+      display: flex;
+      padding: 16px 0;
+      position: relative;
+      width: 200px;
+      cursor: pointer;
+      transition: 80ms;
+      left: 0;
+      justify-content: space-between;
+    }
+
+    .list li:nth-of-type(odd) {
+      flex-direction: row-reverse;
+    }
+
+    .list li:hover {
+      background-color: #ececec;
+      border-color: green;
+      transform: scale(1.1);
+    }
+    .list li:not(.online):hover {
+      border-color: red;
+    }
+
+    .list li::before {
+      border-radius: 100%;
+      position: absolute;
+      display: inline-block;
+      background-color: rgb(10, 195, 10);
+      height: 8px;
+      width: 8px;
+      top: 46px;
+      left: 33px;
+    }
+
+    .list li.online::before {
+      content: "";
+    }
+
+    .list img {
+      width: 40px;
+      height: 40px;
+      margin-right: 16px;
+      border-radius: 100%;
+    }
+
+    .list a {
+      outline: none;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .list li:not(.online) a {
+      color: rgba(0, 0, 0, 0.507);
+    }
+
+    .list li.online img {
+      border: 1px solid green
+    }
+
+    .list li:hover a {
+      text-decoration: underline;
+    }
+
+    .list li.online:nth-of-type(odd)::before {
+      left: auto;
+      right: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <ul class="list">
+    <li>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnkxGl0GHWhyIFBi_Mo8XPyf76u41h6GCTpg&usqp=CAU" alt="Ömer Gülçiçek">
+
+      <a href="">Ömer Gülçiçek</a>
+    </li>
+
+    <li class="online">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRXwqiHearh_-2yORyvpyBOEsj-bLbGzIig&usqp=CAU" alt="">
+
+      <a href="">Kevser Aydın</a>
+    </li>
+
+    <li class="online">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUMiZCBtRc7rUOxLwM4i3gxal0nVUCNv6E0g&usqp=CAU" alt="">
+
+      <a href="">Kodluyoruz Ailesi</a>
+    </li>
+    <li>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnkxGl0GHWhyIFBi_Mo8XPyf76u41h6GCTpg&usqp=CAU" alt="Ömer Gülçiçek">
+
+      <a href="">Ömer Gülçiçek</a>
+    </li>
+
+    <li class="online">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRXwqiHearh_-2yORyvpyBOEsj-bLbGzIig&usqp=CAU" alt="">
+
+      <a href="">Kevser Aydın</a>
+    </li>
+
+    <li class="online">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUMiZCBtRc7rUOxLwM4i3gxal0nVUCNv6E0g&usqp=CAU" alt="">
+
+      <a href="">Kodluyoruz Ailesi</a>
+    </li>
+  </ul>
+</body>
+</html>
