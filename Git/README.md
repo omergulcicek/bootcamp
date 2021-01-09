@@ -1,16 +1,20 @@
-# kodluyoruz-git-denemeleri
+# Git
 
 git config --global --list (git'in kullanıcı bilgilerini verecek)
+
 git config --global user.name "" (git username değişikliği)
+
 git config --global user.email "" (git email değişikliği)
 
 git checkout XXX (XXX branchine geçiş yapar)
+
 git checkout -b  XXX (XXX branchini oluşturur sonra geçiş yapar)
 
 git fetch (diğer branchleri çeker)
+
 git pull (kodun son güncel halini çeker)
 
-# GIT SENARYOSU
+## Git senaryosu
 
 1. git clone <gitlinki> - (bir kez yapılıyor)
 
