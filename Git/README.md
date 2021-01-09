@@ -26,9 +26,9 @@ git **pull** (kodun son güncel halini çeker)
   
 *Örnek Branch* git checkout -b kodluyoruz-001-header-yapilacak
 
-- git status *(değişiklik olan dosyaları listeler)*
+- git **status** *(değişiklik olan dosyaları listeler)*
 
-- git add * *(tüm değişiklikleri yollar)*
+- git **add** * *(tüm değişiklikleri yollar)*
 
 git add .*(tüm değişiklikleri yollar)*
 
