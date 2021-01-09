@@ -6,7 +6,7 @@ git config --global **user.name** "" (git username değişikliği)
 
 git config --global **user.email** "" (git email değişikliği)
 
-git checkout XXX (XXX branchine geçiş yapar)
+git **checkout** XXX (XXX branchine geçiş yapar)
 
 git checkout **-b**  XXX (XXX branchini oluşturur sonra geçiş yapar)
 
