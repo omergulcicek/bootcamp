@@ -81,3 +81,77 @@ for(var i=10; i<hak; i++) {
   } 
 }
 //#endregion
+
+
+//#region - Selectors
+document.getElementById("5yazi");
+document.getElementsByClassName("GTbWa");
+document.querySelectorAll("header");
+document.querySelectorAll("header nav a");
+
+
+var button = document.querySelectorAll("button")[0];
+var passInput = document.getElementById("password");
+var passInput2 = document.getElementById("password2");
+
+button.addEventListener("click", function() {
+    button.innerText = "Gönderildi";
+    button.classList.add("green");
+});
+
+
+nameInput.addEventListener("change", function() {
+    console.dir(nameInput);
+});
+
+
+var button = document.querySelectorAll("button")[0];
+var passInput = document.getElementById("password");
+var passInput2 = document.getElementById("password2");
+
+button.addEventListener("click", function() {
+    if(passInput.value = passInput2.value) {
+        button.innerText = "Gönderildi";
+        button.classList.add("green");
+    }
+    else {
+        
+    
+        alert("parola boştur");
+        alert("parolalar eşleşmiyor");
+    }
+});
+
+var phoneNumber = document.getElementById("phone");
+
+phoneNumber.addEventListener("keyup", function() {
+    if(phoneNumber.value[0] != 5) {
+        phoneNumber.value = "";
+    }
+    else {
+        console.log("numara formatı doğru");
+    }
+    
+  });
+
+function toplama(x, y){
+  if(typeof x != "number") {
+      x = parseInt(x);
+  }
+  if(typeof y != "number") {
+      y = parseInt(y);
+  }
+
+  return x+y;
+}
+
+let firstP = document.querySelectorAll("p")[0];
+
+p.forEach((e,i) => {
+    e.setAttribute("data-id", i);
+});
+
+firstP.addEventListener("click", function() {
+    alert(firstP.getAttribute("data-id"));
+});
+
