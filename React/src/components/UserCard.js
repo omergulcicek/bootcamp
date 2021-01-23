@@ -2,7 +2,7 @@ import Button from "./Button"
 
 function UserCard({users}) {
   var resultHtml = [];
-
+  
   users.forEach(({id,name, title, link}) => {
     resultHtml.push(<div className="col-12 col-sm-6 col-lg-4" key={id}>
       <div className="box mb-4">

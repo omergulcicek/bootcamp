@@ -1,7 +1,8 @@
-import './App.css';
 import "./../node_modules/turkuaz/turkuaz.min.css"
+import './App.css';
 
 import UserCard from "./components/UserCard"
+import Form from "./components/Form"
 
 export const userArr = [
   {
@@ -29,6 +30,10 @@ function App() {
     <>
     <section>
       <UserCard users={userArr} />
+    </section>
+
+    <section>
+      <Form />
     </section>
     </>
   );
