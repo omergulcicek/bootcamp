@@ -68,3 +68,5 @@ Kullanıcı değer girdikçe `<UserCard />` componenti güncellenecek.
 ***
 
 ## Bitirme Projesi
+
+[https://raw.githubusercontent.com/omergulcicek/bootcamp/master/React/data.json](https://raw.githubusercontent.com/omergulcicek/bootcamp/master/React/data.json)
