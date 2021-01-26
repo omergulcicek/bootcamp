@@ -61,15 +61,10 @@ Kullanıcı değer girdikçe `<UserCard />` componenti güncellenecek.
 </>
 ```
 
-
-
-
-
-
-
-
-
-
-
-
 ![React ödevi](https://omergulcicek.com/img/kodluyoruz-odev.png)
+
+***
+***
+***
+
+## Bitirme Projesi
