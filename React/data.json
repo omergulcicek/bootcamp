@@ -1,4 +1,5 @@
-const data = {
+[
+  {
   "headerLinks": ["Overview", "Contagion", "Symptoms", "Prevention"],
   "indexPage": {
     "title": "COVID-19 Alert",
@@ -7,7 +8,7 @@ const data = {
     "title2": "What Is Covid-19",
     "subtitle2": "Coronavirus",
     "description2": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory illness now called COVID-19.Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of Critical Event Preparedness and Response"
-},
+  },
   "contagionPage": {
     "title": "COVID-19 Alert",
     "subtitle": "Stay at Home quarantine To stop Corona virus",
@@ -35,21 +36,22 @@ const data = {
   "preventionPage": [{
     "id": "01",
     "title": "Wear Masks",
-    "descripton": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
+    "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
   },
   {
     "id": "02",
     "title": "Wash Your Hands",
-    "descripton": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
+    "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
   },
   {
     "id": "03",
     "title": "Use nose - rag",
-    "descripton": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
+    "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
   },    
   {
     "id": "04",
     "title": "Avoid Contacts",
-    "descripton": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
+    "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively"
   }]
-}
+  }
+]
