@@ -26,12 +26,12 @@
       "title": "Containted Objects",
       "description": "Use the tissue while sneezing,In this way, you can protect your droplets."
       }
-    ],
+    ]
   },
   "symptompsPage": {
     "title": "Covid-19",
     "subtitle": "Symptomps",
-    "description": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory",
+    "description": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory"
   },
   "preventionPage": [{
     "id": "01",
